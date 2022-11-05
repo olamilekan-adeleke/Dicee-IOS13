@@ -13,11 +13,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var diceImageViewOne: UIImageView!
     @IBOutlet weak var diceImageViewTwo: UIImageView!
     
+    var leftDiceNumber = 1;
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-        
     }
     
     @IBAction func rollButtonPressed(_ sender: UIButton) {
